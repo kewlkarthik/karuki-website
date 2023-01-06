@@ -80,6 +80,10 @@ code, pre{
     border-bottom: 1px solid #fff;
 }
 
+.navbar h1 a:hover {
+    border-bottom: none;
+}
+
 .navbar .flex{
     justify-content: space-between;
 }
@@ -337,13 +341,13 @@ code, pre{
     .showcase-text{
         text-align: center;
         margin-top: 40px;
-        animation: slideInFromTop 1s ease-in;
+        animation: none;
     }
 
     .showcase-form{
         justify-self: center;
         margin: auto;
-        animation: slideInFromBottom 1s ease-in;
+        animation: none;
     }
 
     .cli .grid > *:first-child{
