@@ -114,6 +114,7 @@ code, pre{
 
 .showcase-text{
     animation: slideInFromLeft 1s ease-in;
+    padding: auto 5px;
 }
 
 .showcase-form{
